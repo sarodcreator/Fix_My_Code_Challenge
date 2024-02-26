@@ -1,4 +1,4 @@
-nclude <string.h>
+#include <string.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -18,3 +18,4 @@ void free_dlistint(dlistint_t *head)
 		free(node);
 	}
 }
+
